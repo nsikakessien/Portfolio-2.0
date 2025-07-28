@@ -13,6 +13,16 @@ const projects = [
   },
   {
     id: 2,
+    title: "Job Board",
+    description:
+      "Job Board is a full-stack application built with Next.js, Typescript, and Postgresql with Prisma ORM. It allows users to post job listings, search for jobs, and apply for positions. The application features user authentication using Github, job filtering, and a responsive design.",
+    image: "/jb.png",
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma"],
+    demoUrl: "https://nsk-job-board.netlify.app/",
+    githubUrl: "https://github.com/nsikakessien/Job-Board",
+  },
+  {
+    id: 3,
     title: "Signal Clone",
     description:
       "Signal Clone is a real-time chat application inspired by the Signal messaging app. Built with React Native and Firebase, it allows users to register, log in, create chat rooms, and exchange messages instantly. The app is available for both mobile and web platforms.",
