@@ -6,6 +6,7 @@ const skills = [
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
   { name: "React", level: 90, category: "frontend" },
+  { name: "React Native", level: 90, category: "frontend" },
   { name: "TypeScript", level: 85, category: "frontend" },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
   { name: "Next.js", level: 80, category: "frontend" },
@@ -18,6 +19,7 @@ const skills = [
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
+  { name: "Docker", level: 90, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
   { name: "Firebase", level: 75, category: "tools" },
   { name: "Prisma", level: 75, category: "tools" },
@@ -65,7 +67,7 @@ export const SkillsSection = () => {
               <div className="text-left mb-4">
                 <h3 className="font-semibold text-lg"> {skill.name}</h3>
               </div>
-              <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
+              {/* <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                 <div
                   className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
                   style={{ width: skill.level + "%" }}
@@ -76,7 +78,7 @@ export const SkillsSection = () => {
                 <span className="text-sm text-muted-foreground">
                   {skill.level}%
                 </span>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

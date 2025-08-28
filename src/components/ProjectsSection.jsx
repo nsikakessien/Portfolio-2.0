@@ -12,6 +12,26 @@ const projects = [
     githubUrl: "https://github.com/nsikakessien/Gemini-Clone",
   },
   {
+    id: 4,
+    title: "Sabi Market",
+    description:
+      "Sabi Market is a mobile and web-based B2B marketplace designed for fast-moving consumer goods (FMCG). It connects retailers and wholesalers across typically informal markets, offering tools and features to streamline operations and expand access.",
+    image: "/sabi.png",
+    tags: ["React.js", "TypeScript", "Tailwind CSS", "React Query"],
+    demoUrl: "https://market.sabi.am/",
+    githubUrl: "",
+  },
+  {
+    id: 5,
+    title: "Trace",
+    description:
+      "Trace (also stylized as TRACE, short for Technology Rails for African Commodity Exchange) is a digital platform that streamlines the sourcing and export of mineral and agricultural commodities from Africa with a focus on traceability, transparency, and ethical standards.",
+    image: "/trace.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React Query"],
+    demoUrl: "https://trace.sabi.am/",
+    githubUrl: "",
+  },
+  {
     id: 2,
     title: "Job Board",
     description:
@@ -83,13 +103,15 @@ export const ProjectsSection = () => {
                     >
                       <ExternalLink size={20} />
                     </a>
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <Github size={20} />
-                    </a>
+                    {project.githubUrl ? (
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <Github size={20} />
+                      </a>
+                    ) : null}
                   </div>
                 </div>
               </div>
