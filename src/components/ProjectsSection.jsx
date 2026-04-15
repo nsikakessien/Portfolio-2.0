@@ -2,16 +2,6 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    id: 1,
-    title: "Gemini Chatbot Clone",
-    description:
-      "Gemini Clone is a React-based web application that emulates the conversational AI experience of Google's Gemini. It allows users to interact with an AI assistant powered by the Gemini API, providing responses to user prompts in real time.",
-    image: "/gemini.PNG",
-    tags: ["React", "Gemini API"],
-    demoUrl: "https://nsk-gemini-clone.netlify.app/",
-    githubUrl: "https://github.com/nsikakessien/Gemini-Clone",
-  },
-  {
     id: 4,
     title: "Sabi Market",
     description:
@@ -30,6 +20,26 @@ const projects = [
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "React Query"],
     demoUrl: "https://trace.sabi.am/",
     githubUrl: "",
+  },
+  {
+    id: 6,
+    title: "Straqa",
+    description:
+      "Search, book, and pay for your bus ticket in minutes. No agents. No uncertainty.",
+    image: "/straqa.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React Query"],
+    demoUrl: "https://www.usestraqa.com/",
+    githubUrl: "",
+  },
+  {
+    id: 1,
+    title: "Gemini Chatbot Clone",
+    description:
+      "Gemini Clone is a React-based web application that emulates the conversational AI experience of Google's Gemini. It allows users to interact with an AI assistant powered by the Gemini API, providing responses to user prompts in real time.",
+    image: "/gemini.PNG",
+    tags: ["React", "Gemini API"],
+    demoUrl: "https://nsk-gemini-clone.netlify.app/",
+    githubUrl: "https://github.com/nsikakessien/Gemini-Clone",
   },
   {
     id: 2,
