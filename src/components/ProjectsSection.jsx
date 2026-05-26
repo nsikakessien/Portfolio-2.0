@@ -1,8 +1,28 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { v4 as uuid } from "uuid";
 
 const projects = [
   {
-    id: 4,
+    id: uuid(),
+    title: "Cine Track",
+    description:
+      "Cine Track is a movie tracking application built with React.js, TypeScript, and Tailwind CSS. It allows users to search for movies, view details, and manage their watchlist. The app integrates with a Node.js and Express backend, using Prisma ORM to interact with a PostgreSQL database for storing user data and movie information.",
+    image: "/cine-track.png",
+    tags: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "React Query",
+      "Node.js",
+      "Express",
+      "Prisma",
+      "PostgreSQL",
+    ],
+    demoUrl: "https://cine-track-peach.vercel.app/",
+    githubUrl: "https://github.com/nsikakessien/Cine-Track",
+  },
+  {
+    id: uuid(),
     title: "Sabi Market",
     description:
       "Sabi Market is a mobile and web-based B2B marketplace designed for fast-moving consumer goods (FMCG). It connects retailers and wholesalers across typically informal markets, offering tools and features to streamline operations and expand access.",
@@ -12,7 +32,7 @@ const projects = [
     githubUrl: "",
   },
   {
-    id: 5,
+    id: uuid(),
     title: "Trace",
     description:
       "Trace (also stylized as TRACE, short for Technology Rails for African Commodity Exchange) is a digital platform that streamlines the sourcing and export of mineral and agricultural commodities from Africa with a focus on traceability, transparency, and ethical standards.",
@@ -22,7 +42,7 @@ const projects = [
     githubUrl: "",
   },
   {
-    id: 6,
+    id: uuid(),
     title: "Straqa",
     description:
       "Search, book, and pay for your bus ticket in minutes. No agents. No uncertainty.",
@@ -32,7 +52,7 @@ const projects = [
     githubUrl: "",
   },
   {
-    id: 1,
+    id: uuid(),
     title: "Gemini Chatbot Clone",
     description:
       "Gemini Clone is a React-based web application that emulates the conversational AI experience of Google's Gemini. It allows users to interact with an AI assistant powered by the Gemini API, providing responses to user prompts in real time.",
@@ -42,7 +62,7 @@ const projects = [
     githubUrl: "https://github.com/nsikakessien/Gemini-Clone",
   },
   {
-    id: 2,
+    id: uuid(),
     title: "Job Board",
     description:
       "Job Board is a full-stack application built with Next.js, Typescript, and Postgresql with Prisma ORM. It allows users to post job listings, search for jobs, and apply for positions. The application features user authentication using Github, job filtering, and a responsive design.",
@@ -52,7 +72,7 @@ const projects = [
     githubUrl: "https://github.com/nsikakessien/Job-Board",
   },
   {
-    id: 3,
+    id: uuid(),
     title: "Signal Clone",
     description:
       "Signal Clone is a real-time chat application inspired by the Signal messaging app. Built with React Native and Firebase, it allows users to register, log in, create chat rooms, and exchange messages instantly. The app is available for both mobile and web platforms.",
