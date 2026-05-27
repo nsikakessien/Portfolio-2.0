@@ -23,6 +23,16 @@ const projects = [
   },
   {
     id: uuid(),
+    title: "Cine Track Backend",
+    description:
+      "The backend API for Cine Track, built with Node.js and Express. It provides endpoints for managing movie data, user accounts, and watchlist functionality.",
+    image: "/cine-track-backend.png",
+    tags: ["Node.js", "Express", "Prisma", "PostgreSQL"],
+    demoUrl: "https://movie-watchlist-seven-puce.vercel.app/",
+    githubUrl: "https://github.com/nsikakessien/Cine-Track-Backend",
+  },
+  {
+    id: uuid(),
     title: "Sabi Market",
     description:
       "Sabi Market is a mobile and web-based B2B marketplace designed for fast-moving consumer goods (FMCG). It connects retailers and wholesalers across typically informal markets, offering tools and features to streamline operations and expand access.",
